@@ -16,8 +16,16 @@
 .text-dark {
     color: var(--navColor) !important;
 }
-.col-4 {
-    background-color: red !important;
+
+
+.col-6 {
+    /* background-color: red !important; */
     padding: 0px
     
+}
+
+.container {
+  margin-top: 15px;
+  display: flex !important;
+  flex-wrap: wrap !important;
 }
