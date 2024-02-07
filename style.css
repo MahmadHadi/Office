@@ -1,4 +1,8 @@
-@media ()
+@media (200px < width < 499px) {
+  nav {
+    display: none !important;
+  }
+}
 /* colorhunt: https://colorhunt.co/palette/1b262c0f4c753282b8bbe1fa */
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap");
 
