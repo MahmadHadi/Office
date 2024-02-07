@@ -21,7 +21,7 @@
   word-spacing: 0.4rem;
   line-height: 1.2rem;
   color: var(--fontColor);
-  font-size: 1.1rem;
+  font-size: 1.1rem !important;
   font-family: var(--fontFamily);
   font-weight: 100;
   box-sizing: border-box;
