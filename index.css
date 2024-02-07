@@ -1,0 +1,23 @@
+.banner {
+  /* width: 100%; */
+}
+.banner img {
+  margin-top: 10px;
+  background-size: cover;
+  width: 100vmax;
+  height: 66vh;
+  /* margin: 10px; */
+}
+
+.container .row .col-4 {
+  color: var(--fontColor) !important;
+}
+
+.text-dark {
+    color: var(--navColor) !important;
+}
+.col-4 {
+    background-color: red !important;
+    padding: 0px
+    
+}
