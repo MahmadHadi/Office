@@ -1,13 +1,14 @@
 @media (200px < width < 499px) {
-  nav {
+  nav .left, nav .right {
     display: none !important;
+    height: 200px
   }
 }
 /* colorhunt: https://colorhunt.co/palette/1b262c0f4c753282b8bbe1fa */
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap");
 
 :root {
-  --bodyBG: #f1f6f9;
+  --bodyBG: #caebff;
   --fontColor: #f1f6f9;
   --navColor: #394867;
   --linkWeight: 100;
@@ -24,8 +25,14 @@
   font-family: var(--fontFamily);
   font-weight: 100;
 }
+
+/* bootstrap */
+nav {
+  background-color: red !important;
+}
+
 body {
-  background-color: var(--bodyBG);
+  background-color: var(--bodyBG) !important;
 }
 a {
   text-decoration: none;
@@ -34,7 +41,7 @@ a {
 }
 
 nav {
-  background-color: var(--navColor);
+  background-color: var(--navColor) !important;
   width: 100vmax;
   padding: 0.5em;
 
