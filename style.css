@@ -44,7 +44,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: .6em;
+  padding: 0.6em;
 }
 
 nav .left img {
