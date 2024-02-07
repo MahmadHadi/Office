@@ -1,3 +1,13 @@
+:root {
+  --bodyBG: #caebff;
+  --fontColor: #69c3f0;
+  --navColor: #394867;
+  --linkWeight: 100;
+  --headingFamily: "Abril Fatface", serif;
+  --fontFamily: "Lato", sans-serif;
+}
+/* body */
+
 .banner {
   /* width: 100%; */
 }
@@ -29,3 +39,26 @@
   display: flex !important;
   flex-wrap: wrap !important;
 }
+
+/* Footer */
+
+footer {
+  background-color: var(--navColor);
+  /* border-radius: 10px; */
+  
+  display: flex;
+  justify-content: space-evenly;
+   align-items: center;
+  }
+  footer .footer1 ul .mainLinst {
+  line-height: 2.4rem;
+  color: #4cc3ff;
+  font-weight: var(--linkWeight);
+  font-weight: 700;
+}
+footer .footer1 ul li {
+  line-height: 1.5rem;
+  color: var(--fontColor);
+  list-style: none;
+}
+
