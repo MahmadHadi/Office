@@ -40,6 +40,10 @@
   flex-wrap: wrap !important;
 }
 
+#card {
+  width: 100vmax !important;
+}
+
 /* Footer */
 
 footer {
