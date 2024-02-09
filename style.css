@@ -37,29 +37,38 @@ a {
   color: inherit !important;
 }
 
-nav {
-  background-color: var(--navColor) !important;
-  width: 100vmax;
+/* nav { */
+  /* background-color: var(--navColor) !important; */
+  /* width: 100vmax; */
+/*  */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* padding: 0.6em; */
+/* } */
+/*  */
+/* nav .left img { */
+  /* width: 5vmax; */
+  /* margin-left: 1em; */
+/* } */
+/*  */
+/* nav .right ul { */
+  /* background-color: red; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* margin-right: 1em; */
+  /* gap: 0.6em; */
+/* } */
+/* nav .right ul li { */
+  /* list-style: none; */
+/* } */
+/*  */
 
+#navbar {
+  /* background-color: red; */
+  width: 100vmax;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0.6em;
-}
-
-nav .left img {
-  width: 5vmax;
-  margin-left: 1em;
-}
-
-nav .right ul {
-  /* background-color: red; */
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-right: 1em;
-  gap: 0.6em;
-}
-nav .right ul li {
-  list-style: none;
+  
 }
