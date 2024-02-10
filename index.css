@@ -35,6 +35,10 @@
   justify-content: space-evenly;
 }
 
+/* blogs */
+.blogs img{
+  width: 10em;
+}
 
 /* Footer */
 
