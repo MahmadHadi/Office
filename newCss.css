@@ -1,0 +1,20 @@
+/* Adjust container width */
+.container-fluid {
+    width: 100%;
+  }
+  
+  /* Adjust navbar width */
+  .navbar {
+    width: 100%;
+  }
+  
+  /* Adjust card container width */
+  #card-container {
+    width: 100%;
+  }
+  
+  /* Adjust blogs image width */
+  .blogs img {
+    max-width: 100%; /* Ensures images don't exceed parent container width */
+  }
+  

@@ -11,19 +11,19 @@
 .banner {
   /* width: 100%; */
 }
-.banner img {
+/* .banner img {
   margin-top: 10px;
   background-size: cover;
   width: 100vmax;
   height: 66vh;
   /* margin: 10px; */
-}
+} */
 
 /* cards  */
 
 .cards {
   background-color: yellow;
-  margin: 15px;
+  /* margin: 15px; */
   width: 100vmax;
   height: 300px;
 }
@@ -46,7 +46,7 @@ footer {
   background-color: var(--navColor);
   /* border-radius: 10px; */
   width: 100vmax;
-  margin: 15px;
+  /* margin: 15px; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
